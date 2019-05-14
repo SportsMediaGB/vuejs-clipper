@@ -124,34 +124,3 @@ export default {
   }
 }
 </script>
-
-<style lang='scss' scoped>
-.clipper-range {
-  box-sizing: border-box;
-  padding: 10px;
-}
-.wrap {
-  position: relative;
-  height: 25px;
-  width: 100%;
-}
-.stick {
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: gray;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-.bar {
-  position: absolute;
-  cursor: pointer;
-  width: 12px;
-  height: 100%;
-  background-color: white;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-}
-</style>

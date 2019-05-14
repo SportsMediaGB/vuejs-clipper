@@ -113,39 +113,3 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-.wrap {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-.shim {
-  display: block;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.img-pos {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  transform-origin: 0 0;
-}
-.img-rotate {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  transform-origin: 50% 50%;
-}
-.img {
-  left: 0;
-  top: 0;
-  position: relative;
-  width: 100%;
-  display: block;
-}
-</style>
